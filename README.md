@@ -100,7 +100,7 @@
 **添加第一个仓库：**
 ```
 变量名: GITHUB1
-值: {"token":"ghp_your_token_here","repo":"username/repo-name"}
+值: {"weburl":"https://可选，网址不通时更新","token":"ghp_your_token_here","repo":"username/repo-name"}
 类型: Text
 ```
 
@@ -117,6 +117,7 @@ GITHUB3, GITHUB4, GITHUB5 ... 无限制
 ```
 
 > ⚠️ **注意**：
+> - `weburl` 网址，可选，不填则不检查网址，填了则网址不通才更新仓库
 > - `token` 是你的 GitHub Personal Access Token
 > - `repo` 格式必须是：`用户名/仓库名` 或 `组织名/仓库名`
 > - 不要选择 "Encrypt" 类型，保持 "Text" 即可
