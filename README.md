@@ -508,6 +508,9 @@ curl https://your-worker.workers.dev/api/status
    - 变量名：`PSWD`
    - 值：你的密码（例如：`MySecret123`）
    - 类型：Text
+   - # 更新模式 (可选,默认 true)
+FORCE=true   # 检查网址后更新
+FORCE=false  # 无条件更新
 3. 保存后立即生效
 
 **Wrangler 方式：**
