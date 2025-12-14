@@ -109,14 +109,6 @@ GITHUB2 = {"token":"ghp_yyy","repo":"user/repo2","weburl":"https://site3.com","n
 # Telegram 通知（格式：chat_id token）
 TG = "123456789 1234567890:ABCdefGHIjklMNOpqrsTUVwxyz"
 
-# 密码保护（可选）
-PSWD = "your_password"
-
-# KV 命名空间绑定
-STATUS_KV = your_kv_namespace
-
-# 强制更新模式（可选，默认 true）
-FORCE = "true"
 ```
 
 **继续添加更多仓库：**
