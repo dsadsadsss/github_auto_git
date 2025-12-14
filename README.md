@@ -100,14 +100,14 @@ FORCE=false  # 无条件更新
 > - 用户名可以是任意值，只验证密码
 > - 不设置 PSWD 则无需密码，任何人都可访问
 
-**添加第一个仓库：**
+**添加第一个仓库带网址监控：**
 ```
 变量名: GITHUB1
 值: {"weburl":"https://可选，网址不通时更新","token":"ghp_your_token_here","repo":"username/repo-name"}
 类型: Text
 ```
 
-**添加第二个仓库：**
+**添加第二个仓库不带网址监控：**
 ```
 变量名: GITHUB2
 值: {"token":"ghp_another_token","repo":"org/another-repo"}
